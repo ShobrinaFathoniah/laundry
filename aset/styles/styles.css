@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+@import url('https://fonts.googleapis.com/css?family=Gabriela');
+
+@media screen and (max-width: 513px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Halaman Awal */
+.awalan {
+    font-size: 20px;
+    padding: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('header.jpeg');
+}
+ 
+header {
+    display: inline;
+}
+ 
+main {
+    padding: 20px;
+    overflow: auto;
+}
+ 
+body {
+  margin: 0px;
+  padding: 0;
+  background-color: #eff5e7;
+}
+  
+h2, h3 {
+    text-align: center;
+    color: #108673;
+    font-size: 40px;
+    font-family: 'Sofia';
+}
+
+p{
+  margin: 15px;
+  font-size: 25px;
+  font-family: 'Gabriela';
+}
+
+nav {
+    background-color: #00c6a5;
+    padding: 5px;
+    text-align: right;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a {
+    font-size: 23px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    padding: 14px 16px;
+}
+ 
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+li{
+  font-size: 23px;
+}
+
+nav a:hover {
+    font-weight: bold;
+    background-color: #068d76;
+}
+
+.logo{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.featured-image {
+    width: 55%;
+    object-fit: cover;
+    object-position: center;
+}
+ 
+.card {
+    box-shadow: 0 4px 8px 0 rgba(24, 44, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: justify;
+ }
+ 
+#konten {
+    float: center;
+}
+ 
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00c6a5;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Cari */
+.cari-kode{
+    text-align: center;
+}
+
+.cari-kode input[type=text]{
+    padding: 16px 20px;
+}
+
+.cari-kode .btn{
+    padding: 16px 20px;
+    background-color: #29d1b5;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #3fe0b0;
+  color: #115a17;
+  font-size: 21px;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #3fe0b0;
+}
+
+th{
+  background-color: #7dfdd7;
+}
+
+/*halaman slide show gallery */
+
+img {
+  vertical-align: middle;
+  object-position: center;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.slideshow-container {
+  text-align: center;
+}
+
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(134, 177, 226);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+
+
+
+/* Print */
+
+.print_btn{
+    color:white; 
+    cursor: pointer; 
+    background-color: rgb(14, 196, 209); 
+    display: inline-block; 
+    text-align:right;
+}
+
+.cari{
+    color:white; 
+    cursor: pointer; 
+    background-color: rgb(66, 172, 56); 
+    display: inline-block; 
+    text-align:right;
+}
+
+.list-table table{
+    background-color: rgba(1, 2, 3, 0.719);
+    text-align: center;
+    border: 1 ;
+}
+
+.editbtn{
+    color:white; 
+    cursor: pointer; 
+    background-color: rgb(46, 46, 255); 
+    display: inline-block;
+}
+
+.deletebtn{
+    color:white; 
+    cursor: pointer; 
+    background-color: rgb(255, 62, 62); 
+    display: inline-block;
+}
+
+.tambahbtn{
+    text-align: center; 
+}

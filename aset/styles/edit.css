@@ -1,0 +1,13 @@
+body{
+    background-image: url('header.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.modal-contents{
+    background-color: #2ed18dc7;
+    margin: 5px auto; /* 15% from the top and centered */
+    border: 1px solid rgb(60, 185, 123);
+    width: 35%; /* Could be more or less, depending on screen size */
+}
